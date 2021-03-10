@@ -1,0 +1,39 @@
+body {
+    font-family: 'Signika', sans-serif;
+}
+#helpslide2 {
+    width: 77%;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    row-gap: 34px;
+    column-gap: 35px;
+    grid-template: "hbox1 hbox2 hbox3"
+                    "hbox4 hbox5 hbox6"
+                    "hbox7 hbox8 hbox9"
+                    "hbox10 hbox11 hbox12"
+                    "hbox13 hbox13 hbox13";
+    /* grid-template-columns: 30% 30% 30%; */
+}
+#helpslide2 > div {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 25px;
+}
+#hbox1, #hbox2, #hbox3, #hbox4, #hbox5, #hbox6, #hbox7, #hbox8, #hbox9, #hbox10, #hbox11, #hbox12 {
+    /* width: 30%; */
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+} 
+#hbox13 {
+    width: 294%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#helpslide2 :hover{
+   background-color: #03514E;
+   color: white;
+}
