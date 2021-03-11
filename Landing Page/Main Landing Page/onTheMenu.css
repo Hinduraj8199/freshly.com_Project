@@ -1,0 +1,85 @@
+#on-the-menu {
+  padding-top: 70px;
+  width: 100%;
+  height: 900px;
+  background-image: url("https://assets-global.website-files.com/5d03b4e130118314af624b20/5d94e04ff2b857688f7138b6_home_image2.jpg");
+}
+
+#on-the-menu > #onMenu-content {
+  width: 52%;
+  height: 80%;
+  position: relative;
+  top: 50px;
+  margin: auto;
+  text-align: left;
+  background-color: white;
+  padding: 30px;
+}
+#on-the-menu > #onMenu-content > #cards-container {
+  width: 90%;
+  height: 500px;
+  margin: auto;
+  border: 1px solid black;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  padding-bottom: 0;
+  /* position: absolute; */
+}
+#cards-container > div {
+  width: 25%;
+  height: 200px;
+  border: 0.5px solid rgba(73, 62, 62, 0.5);
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+#cards-container > div:hover {
+  opacity: 0.8;
+}
+
+.bg-modal {
+  width: 120%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  /* opacity: 0.7; */
+  position: absolute;
+  top: 0;
+  left: -8%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  width: 70%;
+  height: 70%;
+  padding: 10px;
+  background-color: rgb(248, 234, 206);
+  opacity: 1;
+  border-radius: 10px;
+  position: relative;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 50px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.modal-content > #modal-description > div {
+  float: left;
+  width: 45%;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin: 1%;
+  padding: 5px;
+}

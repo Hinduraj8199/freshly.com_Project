@@ -1,0 +1,39 @@
+#whatOthersSay {
+  text-align: center;
+  background-color: rgb(253, 246, 229);
+  padding: 20px;
+}
+#whatOthersSay > #W-cards-cont {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+#whatOthersSay > #W-cards-cont div {
+  background-color: white;
+  width: 35%;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+#whatOthersSay > #W-cards-cont > div img {
+  width: 80%;
+  padding-left: 10%;
+}
+#whatOthersSay > .progress-bar {
+  background-color: rgb(71, 21, 253);
+  height: 4px;
+  width: 90%;
+  margin: auto;
+  animation: grow 10s linear infinite;
+  transform-origin: left;
+}
+@keyframes grow {
+  0% {
+    transform: scaleX(0);
+  }
+}
