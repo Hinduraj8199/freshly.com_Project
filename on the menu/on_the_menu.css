@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#row3 {
+    width: 100%;
+    padding: 56px 30px 50px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.center {
+    text-align: center;
+}
+
+#top {
+    width: 100%;
+    height: 95.2px;
+}
+
+#top h1 {
+    margin-top: 0px;
+    margin-bottom: 24px;
+    color: #333;
+    font-size: 3rem;
+    line-height: 1.08em;
+    font-weight: 700;
+}
+
+#top h1 + div {
+    margin-top: 8px;
+    color: #333;
+    font-weight: 700;
+    text-transform: none;
+}
+
+#middle {
+    width: 100%;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown {
+    width: 18%;
+    height: 22px;
+    margin-top: 35px;
+    /* background-color: bisque; */
+    display: flex;
+    color: #8c8c8c;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    justify-content: center;
+
+}
+
+#meal {
+    padding-left: 12px;
+}
+
+#meals {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    /* justify-content: center; */
+}
+
+.items {
+    /* width: 351px;
+    height: 394.5px; */
+
+    width: 23%;
+    padding: 8px;
+    /* color: #030; */
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 72px;
+    text-align: center;
+    /* background-color: bisque; */
+    /* flex: 1 0 21%; */
+    /* flex-basis: 21%; */
+}
+
+.mealImg {
+    width: 100%;
+    height: 325.5px;
+    margin-bottom: 10px;
+    background-image: url("https://assets-global.website-files.com/5d03b4e13011831ae4624b37/5f8be0f694facb12034940aa_production-meal-image-0a78bae3-2e0c-4ab7-b420-154ed262d4d0.jpeg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.mealImg + div {
+    width: 100%;
+    height: 43px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    overflow: hidden;
+    margin-bottom: 3px;
+    font-family: Favoritfreshly, sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.25em;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.sub-text {
+    opacity: 0.6;
+    color: #333;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+p:hover {
+    opacity: 1;
+}
+
+/* #meal-list {
+    outline: none;
+} */
