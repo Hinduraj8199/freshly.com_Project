@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit a request</title>
+    <link rel="stylesheet" href="submit_req_new.css">
+
+</head>
+
+<body style="  background-color: #fffdf7;">
+    <nav id="sub_req">
+        <div><a href="#"><img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg" alt="freshly"></a> </div>
+        <div><a class="sub_a" href="submit_new.html">Submit a request</a></div>
+        <div><a class="sub_a" href="Help_signin.html">Sign in</a></div>
+    </nav>
+    <section id="row1">
+        <div style="color: rgb(98, 96, 96); ;"><a class="sub_a" class="nav_a" href="#">Freshly</a> > Submit a request
+        </div>
+        <div> <input id="input1" type="text" placeholder="Search"> </div>
+
+    </section>
+    <section id="row2">
+        <h1>Submit a request</h1>
+        <label>Your email address</label><br>
+        <input id="row2_inp1" type="text"><br>
+        <label>Subject</label><br>
+        <input id="row2_inp2" type="text"><br>
+        <label>How can we help you?</label><br>
+        <textarea id="row2_inp3"></textarea><br>
+        <p>Please describe what you need help with and someone will get back to you! Our average response time for
+            support<br>
+            requests during business hours is just 30 minutes... zoom, zoom!</p>
+        <label>Attachments(optional)</label><br>
+        <input id="row2_inp4" type="file"><br>
+        <button onclick="storedata()">Submit</button>
+        <div id="captcha">
+            <div>
+                <h5 style="margin-top:15px;">protected by reCAPTCHA</h5>
+                <p style="margin-top: -22px;"><a class="captcha_a"
+                        href="https://policies.google.com/privacy?hl=en">Privacy</a>-<a class="captcha_a"
+                        href="https://policies.google.com/terms?hl=en">Terms</a> </p>
+            </div>
+            <div><img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="logo"></div>
+        </div>
+
+    </section>
+    <script src="submit_req_new.js" ></script>
+</body>
+
+</html>
