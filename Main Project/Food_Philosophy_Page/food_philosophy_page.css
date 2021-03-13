@@ -1,0 +1,216 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Signika", sans-serif;
+}
+
+.pillar-cms-hero-image {
+  height: 430px;
+  /* margin-top: 105px; */
+  background-image: url(https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#second-cont-box {
+  max-width: 550px;
+  margin: auto;
+  /* border: 1px solid red; */
+  margin-top: 70px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.font-big {
+  font-size: 46px;
+}
+
+.font-small {
+  font-size: 15px;
+}
+
+#third-cont {
+  width: 100%;
+  /* border: 1px solid green; */
+}
+
+#third-cont div {
+  float: left;
+}
+
+.third-cont-box1 {
+  width: 37%;
+  /* border: 1px solid blue; */
+  padding-left: 30px;
+  padding-right: 50px;
+  padding-top: 130px;
+  padding-bottom: 138px;
+}
+
+.third-cont-box2 {
+  width: 57.3%;
+  /* border: 1px solid red; */
+}
+
+.font-small2 {
+  font-size: 14px;
+}
+
+/* .third-cont-box2 {
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    clip: rect(300px,2000px,1200px,0px); */
+/* width: 58%;
+    background-image: url("https://assets-global.website-files.com/5d03b4e13011831ae4624b37/5ebad61bfb30b3340b57c652_Freshly_PR_SicilianChickenParm_2000x1500%20(1).jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat; */
+/* } */
+
+.pillar-60-flex {
+  width: 100%;
+  height: 390px;
+  background-image: url(https://assets-global.website-files.com/5d03b4e…/5ebacdf…_LP_ChickenTeriyaki_00005_Extended_2000px.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#fourth-cont {
+  width: 100%;
+  /* border: 1px solid green; */
+}
+
+#fourth-cont div {
+  float: left;
+}
+
+.fourth-cont-box1 {
+  width: 37%;
+  /* border: 1px solid blue; */
+  padding-left: 30px;
+  padding-right: 50px;
+  padding-top: 130px;
+  padding-bottom: 138px;
+}
+
+.fourth-cont-box2 {
+  width: 57.3%;
+  /* border: 1px solid red; */
+}
+
+#fifth-cont {
+  width: 100%;
+  /* border: 1px solid green; */
+}
+
+#fifth-cont div {
+  float: left;
+}
+
+.fifth-cont-box1 {
+  width: 37%;
+  /* border: 1px solid blue; */
+  padding-left: 30px;
+  padding-right: 50px;
+  padding-top: 130px;
+  padding-bottom: 138px;
+}
+
+.fifth-cont-box2 {
+  width: 57.3%;
+  /* border: 1px solid red; */
+}
+
+#sixth-cont {
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+#sixth-cont div {
+  float: left;
+}
+
+.sixth-cont-box1 {
+  width: 39.3%;
+  /* border: 1px solid blue; */
+  padding-left: 76px;
+  padding-right: 76px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.sixth-cont-box2 {
+  width: 50%;
+  /* border: 1px solid red; */
+  background: #f7f7f7;
+}
+
+.sixth-cont-box2 div {
+  width: 70%;
+  /* border: 1px solid green; */
+  padding: 150px 114px;
+}
+
+.align {
+  text-align: center;
+}
+
+.margin {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+#seventh-cont {
+  width: 100%;
+  /* border: 5px solid blue; */
+  border-bottom: 2px solid #ebebeb;
+}
+
+#seventh-cont > div {
+  width: 550px;
+  /* border: 1px solid red; */
+  margin: 80px 484px;
+  text-align: center;
+}
+
+.margin-top {
+  margin-top: 120px;
+}
+
+#seventh-cont div div a button {
+  background: #094fdb;
+  font-size: 18px;
+  color: white;
+  padding: 14px;
+}
+
+#footer div {
+  width: 85%;
+  /* border: 1px solid black; */
+  margin-left: 14%;
+}
+#footer div div {
+  width: 15%;
+  float: left;
+  /* border: 1px solid red; */
+  margin-left: 5%;
+  margin-top: 60px;
+}
+#footer div div p {
+  font-size: 16px;
+}
+#footer div div a {
+  color: #66667f;
+  text-decoration: none;
+  font-size: 14px;
+}
+#footer div div a img {
+  margin-right: 6%;
+}
