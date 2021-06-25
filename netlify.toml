@@ -3,3 +3,30 @@
   to = "/index.html"
   status = 200
   force = false
+  
+[[redirects]]
+  from = "/Plans_&_Menu/p&m_row1&3.html"
+  to = ""../Plans_&_Menu/p&m_row1&3.html""
+  force = true
+
+[[redirects]]
+  from = "/How%20It%20Works%20Page/index.html"
+  to = "../How It Works Page/index.html"
+  force = true
+
+[[redirects]]
+  from = "/Help_Page_new/Help_page.html"
+  to = "../Help_Page_new/Help_page.html"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/Login%20Page/index.html"
+  to = "../Login Page/index.html"
+  force = true
+
+[[redirects]]
+  from = "/Sign%20Up%20Page/index.html"
+  to = "../Sign Up Page/index.html"
+  status = 301
+  force = true
