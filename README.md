@@ -43,4 +43,4 @@ In Help section we can get frequently asked questions. The questions that you ar
 
 
 
-Netlify Deploy : freshly-clone.netlify.app/
+## Netlify  : freshly-clone.netlify.app/
