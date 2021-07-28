@@ -41,6 +41,7 @@ In Help section we can get frequently asked questions. The questions that you ar
 
 ![2021-03-22-19-30-29](https://user-images.githubusercontent.com/77036158/125309082-163dc300-e34f-11eb-9ca8-07ac6be24dfd.png)
 
-
+## To start project
+open index.js file in Main Landing Page Folder with Live Server
 
 ## Netlify  : https://freshly-clone.netlify.app/
