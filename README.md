@@ -1,4 +1,13 @@
 # freshly.com_Project
+This project is a clone of e-commerce website.Freshly is a New York based and direct-to-consumer subscription meal company .Their mission is to provide fresh and gluten free food to the customer.
+## Contributors
+
+- [Hinduraj Kadamb](https://github.com/Hinduraj8199)
+- [Ashwani Sahu](https://github.com/Ashwani-Sahu)
+- [Syed yaseen](https://github.com/sy3dyaseen)
+- [Bhargavi](https://github.com/Bhargavi952)
+
+
 ## Tech Stack 
 
 To create this clone following Tech stack is used.
